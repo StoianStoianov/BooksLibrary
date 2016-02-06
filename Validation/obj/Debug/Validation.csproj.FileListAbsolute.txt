@@ -1,0 +1,5 @@
+C:\Users\stoia\Documents\Visual Studio 2015\Projects\BooksLibrary\Validation\bin\Debug\Validation.dll
+C:\Users\stoia\Documents\Visual Studio 2015\Projects\BooksLibrary\Validation\bin\Debug\Validation.pdb
+C:\Users\stoia\Documents\Visual Studio 2015\Projects\BooksLibrary\Validation\obj\Debug\Validation.dll
+C:\Users\stoia\Documents\Visual Studio 2015\Projects\BooksLibrary\Validation\obj\Debug\Validation.pdb
+C:\Users\stoia\Documents\Visual Studio 2015\Projects\BooksLibrary\Validation\obj\Debug\Validation.csprojResolveAssemblyReference.cache
