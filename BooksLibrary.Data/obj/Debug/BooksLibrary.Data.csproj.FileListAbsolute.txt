@@ -1,0 +1,16 @@
+C:\Users\stoia\Documents\Visual Studio 2015\Projects\BooksLibrary\BooksLibrary.Data\bin\Debug\BooksLibrary.Data.dll.config
+C:\Users\stoia\Documents\Visual Studio 2015\Projects\BooksLibrary\BooksLibrary.Data\bin\Debug\BooksLibrary.Data.dll
+C:\Users\stoia\Documents\Visual Studio 2015\Projects\BooksLibrary\BooksLibrary.Data\bin\Debug\BooksLibrary.Data.pdb
+C:\Users\stoia\Documents\Visual Studio 2015\Projects\BooksLibrary\BooksLibrary.Data\bin\Debug\BooksLibrary.Models.dll
+C:\Users\stoia\Documents\Visual Studio 2015\Projects\BooksLibrary\BooksLibrary.Data\bin\Debug\EntityFramework.dll
+C:\Users\stoia\Documents\Visual Studio 2015\Projects\BooksLibrary\BooksLibrary.Data\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\stoia\Documents\Visual Studio 2015\Projects\BooksLibrary\BooksLibrary.Data\bin\Debug\Microsoft.AspNet.Identity.Core.dll
+C:\Users\stoia\Documents\Visual Studio 2015\Projects\BooksLibrary\BooksLibrary.Data\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\stoia\Documents\Visual Studio 2015\Projects\BooksLibrary\BooksLibrary.Data\bin\Debug\BooksLibrary.Models.pdb
+C:\Users\stoia\Documents\Visual Studio 2015\Projects\BooksLibrary\BooksLibrary.Data\bin\Debug\EntityFramework.xml
+C:\Users\stoia\Documents\Visual Studio 2015\Projects\BooksLibrary\BooksLibrary.Data\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\stoia\Documents\Visual Studio 2015\Projects\BooksLibrary\BooksLibrary.Data\bin\Debug\Microsoft.AspNet.Identity.Core.xml
+C:\Users\stoia\Documents\Visual Studio 2015\Projects\BooksLibrary\BooksLibrary.Data\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\stoia\Documents\Visual Studio 2015\Projects\BooksLibrary\BooksLibrary.Data\obj\Debug\BooksLibrary.Data.csprojResolveAssemblyReference.cache
+C:\Users\stoia\Documents\Visual Studio 2015\Projects\BooksLibrary\BooksLibrary.Data\obj\Debug\BooksLibrary.Data.dll
+C:\Users\stoia\Documents\Visual Studio 2015\Projects\BooksLibrary\BooksLibrary.Data\obj\Debug\BooksLibrary.Data.pdb
