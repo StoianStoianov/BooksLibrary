@@ -68,3 +68,16 @@ C:\Users\stoia\Documents\Visual Studio 2015\Projects\BooksLibrary\BooksLibrary.W
 C:\Users\stoia\Documents\Visual Studio 2015\Projects\BooksLibrary\BooksLibrary.Web\bin\Microsoft.Owin.Security.OAuth.xml
 C:\Users\stoia\Documents\Visual Studio 2015\Projects\BooksLibrary\BooksLibrary.Web\obj\Debug\BooksLibrary.Web.dll
 C:\Users\stoia\Documents\Visual Studio 2015\Projects\BooksLibrary\BooksLibrary.Web\obj\Debug\BooksLibrary.Web.pdb
+C:\Users\stoia\Documents\Visual Studio 2015\Projects\BooksLibrary\BooksLibrary.Web\bin\BooksLibrary.Services.dll
+C:\Users\stoia\Documents\Visual Studio 2015\Projects\BooksLibrary\BooksLibrary.Web\bin\Ninject.dll
+C:\Users\stoia\Documents\Visual Studio 2015\Projects\BooksLibrary\BooksLibrary.Web\bin\Ninject.Web.Common.dll
+C:\Users\stoia\Documents\Visual Studio 2015\Projects\BooksLibrary\BooksLibrary.Web\bin\Ninject.Web.dll
+C:\Users\stoia\Documents\Visual Studio 2015\Projects\BooksLibrary\BooksLibrary.Web\bin\Validation.dll
+C:\Users\stoia\Documents\Visual Studio 2015\Projects\BooksLibrary\BooksLibrary.Web\bin\WebActivatorEx.dll
+C:\Users\stoia\Documents\Visual Studio 2015\Projects\BooksLibrary\BooksLibrary.Web\bin\BooksLibrary.Services.pdb
+C:\Users\stoia\Documents\Visual Studio 2015\Projects\BooksLibrary\BooksLibrary.Web\bin\Validation.pdb
+C:\Users\stoia\Documents\Visual Studio 2015\Projects\BooksLibrary\BooksLibrary.Web\bin\Ninject.xml
+C:\Users\stoia\Documents\Visual Studio 2015\Projects\BooksLibrary\BooksLibrary.Web\bin\Ninject.Web.xml
+C:\Users\stoia\Documents\Visual Studio 2015\Projects\BooksLibrary\BooksLibrary.Web\bin\Ninject.Web.Common.xml
+C:\Users\stoia\Documents\Visual Studio 2015\Projects\BooksLibrary\BooksLibrary.Web\bin\Ninject.Extensions.Conventions.dll
+C:\Users\stoia\Documents\Visual Studio 2015\Projects\BooksLibrary\BooksLibrary.Web\bin\Ninject.Extensions.Conventions.xml

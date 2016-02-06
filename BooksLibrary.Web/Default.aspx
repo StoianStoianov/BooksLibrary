@@ -2,41 +2,31 @@
 
 <asp:Content ID="BodyContent" ContentPlaceHolderID="MainContent" runat="server">
 
-    <div class="jumbotron">
-        <h1>ASP.NET</h1>
-        <p class="lead">ASP.NET is a free web framework for building great Web sites and Web applications using HTML, CSS, and JavaScript.</p>
-        <p><a href="http://www.asp.net" class="btn btn-primary btn-lg">Learn more &raquo;</a></p>
-    </div>
-
-    <div class="row">
-        <div class="col-md-4">
-            <h2>Getting started</h2>
-            <p>
-                ASP.NET Web Forms lets you build dynamic websites using a familiar drag-and-drop, event-driven model.
-            A design surface and hundreds of controls and components let you rapidly build sophisticated, powerful UI-driven sites with data access.
-            </p>
-            <p>
-                <a class="btn btn-default" href="http://go.microsoft.com/fwlink/?LinkId=301948">Learn more &raquo;</a>
-            </p>
-        </div>
-        <div class="col-md-4">
-            <h2>Get more libraries</h2>
-            <p>
-                NuGet is a free Visual Studio extension that makes it easy to add, remove, and update libraries and tools in Visual Studio projects.
-            </p>
-            <p>
-                <a class="btn btn-default" href="http://go.microsoft.com/fwlink/?LinkId=301949">Learn more &raquo;</a>
-            </p>
-        </div>
-        <div class="col-md-4">
-            <h2>Web Hosting</h2>
-            <p>
-                You can easily find a web hosting company that offers the right mix of features and price for your applications.
-            </p>
-            <p>
-                <a class="btn btn-default" href="http://go.microsoft.com/fwlink/?LinkId=301950">Learn more &raquo;</a>
-            </p>
-        </div>
-    </div>
+     <asp:FileUpload ID="FileUpload" runat="server" Width="290px" />
+<asp:RegularExpressionValidator ID="regexValidator" runat="server"
+     ControlToValidate="FileUpload"
+     ErrorMessage="Only JPEG images are allowed" 
+     ValidationExpression="(.*\.([Jj][Pp][Gg])|.*\.([Jj][Pp][Ee][Gg])$)">
+</asp:RegularExpressionValidator>   
+    <br />
+    <asp:Label ID="TitleLabel" runat="server" Text="Title:"></asp:Label>
+    <asp:TextBox ID="TitleTextBox" runat="server"></asp:TextBox>
+    <br />
+    <br />
+    <asp:Label ID="GenreLabel" runat="server" Text="Genre:"></asp:Label>
+    <asp:DropDownList ID="GenreDownList" runat="server" OnSelectedIndexChanged="DropDownList1_SelectedIndexChanged">
+                  <asp:ListItem Selected="True" Value="Comedy"> Comedy </asp:ListItem>
+                  <asp:ListItem Value="Horror"> Horror </asp:ListItem>
+                  <asp:ListItem Value="Biography"> Biography </asp:ListItem>
+    </asp:DropDownList>
+    <br />
+    <br />
+    <asp:Label ID="PageCountLabel" runat="server" Text="Page count:"></asp:Label>
+    <asp:TextBox ID="PageCountTextBox" runat="server" Width="24px"></asp:TextBox>
+    <br />
+    <br />
+     <asp:TextBox ID="ErrorTextBox" runat="server" Visible="False" Width="266px"></asp:TextBox>
+   <asp:Button ID="Button1" runat="server" Text="Upload" onclick="Button1_Click" Width="110px"/>       
+   
 
 </asp:Content>

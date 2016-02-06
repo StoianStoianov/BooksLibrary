@@ -12,3 +12,7 @@ C:\Users\stoia\Documents\Visual Studio 2015\Projects\BooksLibrary\BooksLibrary.S
 C:\Users\stoia\Documents\Visual Studio 2015\Projects\BooksLibrary\BooksLibrary.Services\obj\Debug\BooksLibrary.Services.csprojResolveAssemblyReference.cache
 C:\Users\stoia\Documents\Visual Studio 2015\Projects\BooksLibrary\BooksLibrary.Services\obj\Debug\BooksLibrary.Services.dll
 C:\Users\stoia\Documents\Visual Studio 2015\Projects\BooksLibrary\BooksLibrary.Services\obj\Debug\BooksLibrary.Services.pdb
+C:\Users\stoia\Documents\Visual Studio 2015\Projects\BooksLibrary\BooksLibrary.Services\bin\Debug\BooksLibrary.Data.dll
+C:\Users\stoia\Documents\Visual Studio 2015\Projects\BooksLibrary\BooksLibrary.Services\bin\Debug\BooksLibrary.Models.dll
+C:\Users\stoia\Documents\Visual Studio 2015\Projects\BooksLibrary\BooksLibrary.Services\bin\Debug\BooksLibrary.Data.pdb
+C:\Users\stoia\Documents\Visual Studio 2015\Projects\BooksLibrary\BooksLibrary.Services\bin\Debug\BooksLibrary.Models.pdb

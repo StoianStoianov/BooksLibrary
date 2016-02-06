@@ -19,5 +19,7 @@ namespace BooksLibrary.Data
         DbEntityEntry<TEntity> Entry<TEntity>(TEntity entity) where TEntity : class;
         IDbSet<TEntity> Set<TEntity>() where TEntity : class;
         int SaveChanges();
+
+        
     }
 }

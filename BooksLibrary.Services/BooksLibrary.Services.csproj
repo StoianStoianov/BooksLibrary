@@ -57,12 +57,25 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Class1.cs" />
+    <Compile Include="BooksServices.cs" />
+    <Compile Include="Contracts\IBooksServices.cs" />
+    <Compile Include="Contracts\IGenresServices.cs" />
+    <Compile Include="GenresServices.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
     <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\BooksLibrary.Data\BooksLibrary.Data.csproj">
+      <Project>{2d34c76b-ba31-49c4-bb83-f9b9efb27cd7}</Project>
+      <Name>BooksLibrary.Data</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\BooksLibrary.Models\BooksLibrary.Models.csproj">
+      <Project>{f00f87b8-68be-4e8f-b31c-6418fe15fbe6}</Project>
+      <Name>BooksLibrary.Models</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

@@ -18,5 +18,7 @@ namespace BooksLibrary.Data.Repositories
         void Remove(TEntity entity);
 
         void SaveChanges();
+
+        
     }
 }
