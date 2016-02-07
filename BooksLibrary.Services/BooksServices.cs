@@ -1,15 +1,9 @@
-﻿using BooksLibrary.Services.Contracts;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using BooksLibrary.Models;
-using BooksLibrary.Data.Repositories;
-using BooksLibrary.Data.UnitsOfWork;
-
-namespace BooksLibrary.Services
+﻿namespace BooksLibrary.Services
 {
+    using BooksLibrary.Services.Contracts;
+    using System.Linq;
+    using BooksLibrary.Models;
+    using BooksLibrary.Data.UnitsOfWork;
     public class BooksServices : IBooksServices
     {
         private IUnitOfWork books;
@@ -27,7 +21,27 @@ namespace BooksLibrary.Services
 
         public IQueryable<Book> GetAll()
         {
-            throw new NotImplementedException();
+            var repo = this.books.Get<Book>();
+            return repo.All().OrderByDescending(book => book.CreationDate);
+        }
+
+        public IQueryable<Book> SearchByGenre(string genre)
+        {
+            var repo = this.books.Get<Book>();
+            return repo.All().Where(book => book.Genre.GenreName == genre);
+        }
+
+        public IQueryable<Book> SearchByPage(int pagesCount)
+        {
+            var repo = this.books.Get<Book>();
+            return repo.All().Where(book => book.PageCount == pagesCount);
+        }
+
+        public IQueryable<Book> SearchByTitle(string title)
+        {
+            var repo = this.books.Get<Book>();
+            var books = repo.All().Where(book => book.Title == title);
+            return books;
         }
     }
 }

@@ -1,15 +1,9 @@
-﻿using BooksLibrary.Services.Contracts;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using BooksLibrary.Models;
-using BooksLibrary.Data.Repositories;
-using BooksLibrary.Data.UnitsOfWork;
-
-namespace BooksLibrary.Services
+﻿namespace BooksLibrary.Services
 {
+    using BooksLibrary.Services.Contracts;
+    using System.Linq;
+    using BooksLibrary.Models;
+    using BooksLibrary.Data.UnitsOfWork;
     public class GenresServices : IGenresServices
     {
         private IUnitOfWork genres;
@@ -23,6 +17,6 @@ namespace BooksLibrary.Services
         {
             var repo = genres.Get<Genre>();
             return repo.All().Where(gen => gen.GenreName == genre).FirstOrDefault();
-        }
+        }             
     }
 }

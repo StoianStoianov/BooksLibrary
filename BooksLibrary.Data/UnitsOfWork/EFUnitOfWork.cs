@@ -1,12 +1,8 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using BooksLibrary.Data.Repositories;
-
-namespace BooksLibrary.Data.UnitsOfWork
+﻿namespace BooksLibrary.Data.UnitsOfWork
 {
+    using System.Collections.Generic;
+    using BooksLibrary.Data.Repositories;
+
     public class EFUnitOfWork : IUnitOfWork
     {
         private IDictionary<string, object> repos;

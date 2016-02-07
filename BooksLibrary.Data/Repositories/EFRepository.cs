@@ -1,12 +1,7 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Data.Entity;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace BooksLibrary.Data.Repositories
+﻿namespace BooksLibrary.Data.Repositories
 {
+    using System.Data.Entity;
+    using System.Linq;
     public class EFRepository<TEntity> : IRepository<TEntity> where TEntity : class
     {
         private readonly IBooksLibraryDbContext data;

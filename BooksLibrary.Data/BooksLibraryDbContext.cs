@@ -1,14 +1,8 @@
-﻿using BooksLibrary.Models;
-using Microsoft.AspNet.Identity.EntityFramework;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using System.Data.Entity;
-
-namespace BooksLibrary.Data
+﻿namespace BooksLibrary.Data
 {
+    using BooksLibrary.Models;
+    using Microsoft.AspNet.Identity.EntityFramework;
+    using System.Data.Entity;
     public class BooksLibraryDbContext : IdentityDbContext<User>,IBooksLibraryDbContext
     {
         public BooksLibraryDbContext()

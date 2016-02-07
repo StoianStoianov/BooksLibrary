@@ -1,16 +1,16 @@
-﻿using BooksLibrary.Models;
-using BooksLibrary.Services.Contracts;
-using Ninject;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Web;
-using System.Web.UI;
-using System.Web.UI.WebControls;
-using Validation;
-
-namespace BooksLibrary.Web
+﻿namespace BooksLibrary.Web
 {
+    using BooksLibrary.Models;
+    using BooksLibrary.Services.Contracts;
+    using Ninject;
+    using System;
+    using System.Collections.Generic;
+    using System.Data.Entity.Infrastructure;
+    using System.Linq;
+    using System.Web;
+    using System.Web.UI;
+    using System.Web.UI.WebControls;
+    using Validation;
     public partial class _Default : Page
     {
         [Inject]
@@ -25,12 +25,17 @@ namespace BooksLibrary.Web
         protected void Button1_Click(object sender, EventArgs e)
         {
             string imgName = FileUpload.FileName;
-            string imgPath = "App_Data/" + imgName;
+            string imgPath = "/Images/"+imgName;
 
             try
             {
                 this.SavePicture(imgPath);
                 this.InsertBook(imgPath);
+
+            }
+            catch (DbUpdateException ex)
+            {
+                this.ErrorTextBox.Text = "There is a book wth this name already!";
             }
             catch (Exception ex)
             {
@@ -38,8 +43,6 @@ namespace BooksLibrary.Web
                 this.ErrorTextBox.ForeColor = System.Drawing.Color.Red;
                 this.ErrorTextBox.Text = ex.Message;
             }
-
-
             
         }
 

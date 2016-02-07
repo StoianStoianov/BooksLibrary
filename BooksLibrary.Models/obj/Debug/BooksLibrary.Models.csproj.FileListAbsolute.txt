@@ -11,3 +11,4 @@ C:\Users\stoia\Documents\Visual Studio 2015\Projects\BooksLibrary\BooksLibrary.M
 C:\Users\stoia\Documents\Visual Studio 2015\Projects\BooksLibrary\BooksLibrary.Models\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.xml
 C:\Users\stoia\Documents\Visual Studio 2015\Projects\BooksLibrary\BooksLibrary.Models\obj\Debug\BooksLibrary.Models.dll
 C:\Users\stoia\Documents\Visual Studio 2015\Projects\BooksLibrary\BooksLibrary.Models\obj\Debug\BooksLibrary.Models.pdb
+C:\Users\stoia\Documents\Visual Studio 2015\Projects\BooksLibrary\BooksLibrary.Models\obj\Debug\BooksLibrary.Models.csprojResolveAssemblyReference.cache

@@ -1,11 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace Validation
+﻿namespace Validation
 {
+    using System;   
     public class Validator
     {
         private const string TITLE_LENGTH_EXCEPTION_MESSAGE = "Invalid title length!";
