@@ -12,8 +12,8 @@
     <asp:GridView runat="server" ID="BooksLibrary"
         ItemType="BooksLibrary.Models.Book"
         DataKeyNames="Id" 
-        SelectMethod="BooksLibrary_GetData"
-        AllowPaging="true"
+        SelectMethod="BooksLibrary_GetData"         
+        AllowPaging="true"       
         AutoGenerateColumns="false">
         <Columns>      
             <asp:ImageField DataImageUrlField="Url" HeaderText="Image" ControlStyle-Width="50" ControlStyle-Height="50"/>     

@@ -52,6 +52,9 @@ namespace BooksLibrary.Data.Migrations
             context.Books.Add(new Models.Book { Title = "Pippi Longstocking", PageCount = 45, CreationDate = DateTime.Now, Genre = ComedyGenre, Url = "/Images/reading-book-girl-absorbed-46742425.jpg" });
             context.Books.Add(new Models.Book { Title = "Mike Tyson Biography", PageCount = 500, CreationDate = DateTime.Now, Genre = BiographtGenre, Url = "/Images/school-girl-reading-book-white-young-glasses-icons-such-as-math-formulas-animals-nature-objects-around-her-40435797.jpg" });
             context.Books.Add(new Models.Book { Title = "Ronaldo Biography", PageCount = 400, CreationDate = DateTime.Now, Genre = BiographtGenre, Url = "/Images/woman-reading-book-sitting-sofa-home-looking-down-33413003.jpg" });
+            context.Books.Add(new Models.Book { Title = "Hitler Biography", PageCount = 500, CreationDate = DateTime.Now, Genre = BiographtGenre, Url = "/Images/school-girl-reading-book-white-young-glasses-icons-such-as-math-formulas-animals-nature-objects-around-her-40435797.jpg" });
+            context.Books.Add(new Models.Book { Title = "GSP Biography", PageCount = 400, CreationDate = DateTime.Now, Genre = BiographtGenre, Url = "/Images/woman-reading-book-sitting-sofa-home-looking-down-33413003.jpg" });
+
 
 
         }

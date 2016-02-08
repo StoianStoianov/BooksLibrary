@@ -18,9 +18,10 @@
         public IGenresServices GenreServices { get; set; }
         protected void Page_Load(object sender, EventArgs e)
         {
-
+          
         }
 
+       
         public IQueryable<Book> BooksLibrary_GetData()
         {
             string searchBy = this.SearchOptions.SelectedItem.Text;
@@ -41,9 +42,6 @@
             this.BooksLibrary_GetData();
         }
 
-        private void SearchByTitle()
-        {
-
-        }
+        
     }
 }

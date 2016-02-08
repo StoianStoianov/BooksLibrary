@@ -19,7 +19,7 @@
         public IGenresServices GenreServices { get; set; }
         protected void Page_Load(object sender, EventArgs e)
         {
-
+            
         }
 
         protected void Button1_Click(object sender, EventArgs e)
@@ -35,7 +35,7 @@
             }
             catch (DbUpdateException ex)
             {
-                this.ErrorTextBox.Text = "There is a book wth this name already!";
+                this.ErrorTextBox.Text = "There is a book with this name already!";
             }
             catch (Exception ex)
             {
@@ -77,7 +77,9 @@
             string title = this.TitleTextBox.Text;
             validator.ValidateTitleLength(title,3);
 
-            int pagesCount = int.Parse(this.PageCountTextBox.Text);
+
+
+            int pagesCount = validator.TryParsePageCountInput(this.PageCountTextBox.Text);
             validator.ValidatePageCount(pagesCount, 0, 5000);
 
             string genreName = this.GenreDownList.SelectedValue;

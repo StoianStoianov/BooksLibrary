@@ -1,8 +1,9 @@
 ﻿<%@ Page Title="Home Page" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="Default.aspx.cs" Inherits="BooksLibrary.Web._Default" %>
 
 <asp:Content ID="BodyContent" ContentPlaceHolderID="MainContent" runat="server">
-
+     <asp:Label runat="server" ID="ImageLabel">Choose image:</asp:Label>   
      <asp:FileUpload ID="FileUpload" runat="server" Width="290px" />
+<br />
 <asp:RegularExpressionValidator ID="regexValidator" runat="server"
      ControlToValidate="FileUpload"
      ErrorMessage="Only JPEG images are allowed" 
